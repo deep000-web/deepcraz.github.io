@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DEEPCRAZ - Clothing Store</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f7f7f7; }
+    .header { background: #333; color: #fff; padding: 20px; text-align: center; }
+    .navbar { background: #444; overflow: hidden; }
+    .navbar a { float: left; display: block; color: #fff; text-align: center; padding: 14px 16px; text-decoration: none; }
+    .navbar a:hover { background: #ddd; color: #000; }
+    .container { padding: 20px; }
+    .product-grid { display: flex; flex-wrap: wrap; justify-content: space-around; }
+    .product { background: #fff; border: 1px solid #ddd; margin: 10px; padding: 10px; width: calc(25% - 20px); box-sizing: border-box; }
+    .product img { width: 100%; height: auto; }
+    .product h3 { margin: 10px 0 5px 0; }
+    .product .price { font-size: 18px; font-weight: bold; color: #333; }
+    .footer { background: #333; color: #fff; padding: 10px; text-align: center; margin-top: 20px; }
+    @media (max-width: 768px) { .product { width: calc(50% - 20px); } }
+    @media (max-width: 480px) { .product { width: 100%; } }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>DEEPCRAZ</h1>
+    <p>Exclusive Clothing Store</p>
+  </div>
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Contact</a>
+  </div>
+  <div class="container">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <!-- प्रोडक्ट 1 -->
+      <div class="product">
+        <img src="image1.jpg" alt="Clothing 1">
+        <h3>Stylish Jacket</h3>
+        <p class="price">₹1299</p>
+      </div>
+      <!-- प्रोडक्ट 2 -->
+      <div class="product">
+        <img src="image2.jpg" alt="Clothing 2">
+        <h3>Elegant Top</h3>
+        <p class="price">₹1499</p>
+      </div>
+      <!-- प्रोडक्ट 3 -->
+      <div class="product">
+        <img src="image3.jpg" alt="Clothing 3">
+        <h3>Casual T-Shirt</h3>
+        <p class="price">₹999</p>
+      </div>
+      <!-- प्रोडक्ट 4 -->
+      <div class="product">
+        <img src="image4.jpg" alt="Clothing 4">
+        <h3>Trendy Jeans</h3>
+        <p class="price">₹1999</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p>Email: deepshrivastav109@gmail.com</p>
+    <p>WhatsApp: +91 72890 26652</p>
+    <p>Instagram: shayardeep__</p>
+  </div>
+  <div class="footer">
+    <p>&copy; 2025 DEEPCRAZ. All rights reserved.</p>
+  </div>
+</body>
+</html>
